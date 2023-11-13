@@ -52,12 +52,14 @@ def generate_graph(n_vertices,edge_percentage):
 
     return vertices, edges
 
-edge_percentage_list = [0.125, 0.25, 0.5, 0.75]
-n_vertices_list = range(4,1001)
+if __name__ == '__main__':
 
-for n_vertices in n_vertices_list:
-    for edge_percentage in edge_percentage_list:
-        vertices, edges = generate_graph(n_vertices, edge_percentage)
-        graph = {"vertices": vertices, "edges":edges}
-        with open("graphs/{}_vertices_{}_edge_percentage.json".format(n_vertices,edge_percentage), "w") as f:
-            f.write(json.dumps(graph))
+    edge_percentage_list = [0.125, 0.25, 0.5, 0.75]
+    n_vertices_list = range(4,151)
+
+    for n_vertices in n_vertices_list:
+        for edge_percentage in edge_percentage_list:
+            vertices, edges = generate_graph(n_vertices, edge_percentage)
+            graph = {"vertices": vertices, "edges":edges}
+            with open("graphs/{}_vertices_{}_edge_percentage.json".format(n_vertices,edge_percentage), "w") as f:
+                f.write(json.dumps(graph))
