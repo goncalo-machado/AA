@@ -1,0 +1,9 @@
+Algorithm                      Correct_Results Accuracy       
+exhaustive                     119             1.0            
+greedy                         45              0.37815126050420167
+randomized_1000                80              0.6722689075630253
+randomized_2500                86              0.7226890756302521
+randomized_5000                92              0.773109243697479
+randomized_10000               96              0.8067226890756303
+randomized_20000               100             0.8403361344537815
+randomized_500000              115             0.9663865546218487

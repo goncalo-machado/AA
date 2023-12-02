@@ -15,15 +15,13 @@ def randomized_clique_algorithm(graph, max_operations=5000):
     attempts_counter = 0
 
     while operation_counter < max_operations:
-        # Randomly sample vertices
         vertices = random.sample(sorted(graph.nodes()), current_size)
         attempts_counter += 1
-        # Apply a local search algorithm (e.g., greedy algorithm)
+
         clique = local_search(graph.subgraph(vertices))
 
         operation_counter += current_size
 
-        # Dynamically adjust the size based on performance
         if len(clique) == graph_size:
             best_clique = clique
             break
@@ -32,12 +30,10 @@ def randomized_clique_algorithm(graph, max_operations=5000):
         else:
             current_size = max(len(best_clique)+1, current_size // 2)
 
-        # Update the best-known solution if a larger clique is found
         best_clique = max(clique, best_clique, key=len)
 
     return best_clique, operation_counter, attempts_counter
 
-# Example local search algorithm (greedy algorithm)
 def local_search(subgraph):
     clique = []
     for node in subgraph.nodes():
@@ -74,7 +70,6 @@ def run(graphs, file_path):
 
             maximum_clique_string = maximum_clique_string[:-1] + "]"
 
-            #print(f"{len(graph.nodes):<15} {edge_percentage_list[edge_percentage_list_index]:<15} {len(graph.edges):<15} {maximum_clique_string:<50} {len(maximum_clique):<30} {n_operations:<15} {n_attempts:<15} {end - start:<15}\n")
             file.write(f"{graph.number_of_nodes():<15} {edge_percentage_list[edge_percentage_list_index]:<15} {len(graph.edges):<15} {maximum_clique_string:<50} {len(maximum_clique):<30} {n_operations:<15} {n_attempts:<15} {end - start:<15}\n")
             file_csv.write(f"{graph.number_of_nodes()};{edge_percentage_list[edge_percentage_list_index]};{len(graph.edges)};{maximum_clique_string};{len(maximum_clique)};{n_operations};{n_attempts};{end - start}\n")
 
@@ -84,6 +79,7 @@ def run(graphs, file_path):
                 edge_percentage_list_index += 1
 
 if __name__ == "__main__":
+
     graphs = load_graphs(150)
     run(graphs, "results/randomized_algorithm_my_graphs")
     sw_graphs = load_SW_graphs()
