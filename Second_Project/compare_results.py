@@ -1,6 +1,6 @@
 import csv
 
-max_number_of_operations_list = [1000,2500,5000,10000,20000,500000]
+max_number_of_operations_list = [1000,2500,5000,10000,20000,100000,500000,1000000,2500000,5000000]
 
 exhaustive_results = []
 greedy_results = []
@@ -42,7 +42,7 @@ for max_number_of_operations in max_number_of_operations_list:
 
     randomized_results[max_number_of_operations] = []
 
-    with open('results/randomized_algorithm_my_graphs_' + str(max_number_of_operations) +'.csv', 'r') as randomized_algorithm_csv:
+    with open('results/randomized_algorithm_my_graphs' + str(max_number_of_operations) +'.csv', 'r') as randomized_algorithm_csv:
         lines = csv.reader(randomized_algorithm_csv, delimiter=';')
         first_line = True
         for row in lines:

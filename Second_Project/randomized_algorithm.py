@@ -14,13 +14,23 @@ def randomized_clique_algorithm(graph, max_operations=5000):
     operation_counter = 0
     attempts_counter = 0
 
+    tested_solutions = set()
+
     while operation_counter < max_operations:
         vertices = random.sample(sorted(graph.nodes()), current_size)
+
+        solution = tuple(sorted(vertices))
+        
+        if solution in tested_solutions:
+            continue
+        
+        tested_solutions.add(solution)
+
         attempts_counter += 1
 
         clique = local_search(graph.subgraph(vertices))
 
-        operation_counter += current_size
+        operation_counter += current_size **2
 
         if len(clique) == graph_size:
             best_clique = clique
@@ -43,7 +53,7 @@ def local_search(subgraph):
 
 def run(graphs, file_path):
 
-    max_number_of_operations_list = [1000,2500,5000,10000,20000,500000]
+    max_number_of_operations_list = [1000,2500,5000,10000,20000,100000,500000,1000000,2500000,5000000]
 
     for max_number_of_operations in max_number_of_operations_list:
 
@@ -80,7 +90,7 @@ def run(graphs, file_path):
 
 if __name__ == "__main__":
 
-    graphs = load_graphs(150)
+    graphs = load_graphs(34)
     run(graphs, "results/randomized_algorithm_my_graphs")
     sw_graphs = load_SW_graphs()
     run(sw_graphs, "results/randomized_algorithm_SW_graphs")
