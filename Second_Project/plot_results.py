@@ -5,7 +5,7 @@ import csv
 x = []
 y = []
 
-with open('results/greedy_search.csv', 'r') as greedy_search_csv:
+with open('results/result_comparison.csv', 'r') as greedy_search_csv:
     lines = csv.reader(greedy_search_csv, delimiter=';')
     first_line = True
     index = 0

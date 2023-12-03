@@ -17,7 +17,17 @@ def randomized_clique_algorithm(graph, max_operations=5000):
     tested_solutions = set()
 
     while operation_counter < max_operations:
-        vertices = random.sample(sorted(graph.nodes()), current_size)
+
+        if len(tested_solutions) >= 2**graph_size:
+            break
+
+        vertices = []
+
+        while len(vertices) < current_size:
+            vertex = random.choice(list(graph.nodes()))
+            operation_counter += 1
+            if vertex not in vertices:
+                vertices.append(vertex)
 
         solution = tuple(sorted(vertices))
         
@@ -29,8 +39,6 @@ def randomized_clique_algorithm(graph, max_operations=5000):
         attempts_counter += 1
 
         clique = local_search(graph.subgraph(vertices))
-
-        operation_counter += current_size **2
 
         if len(clique) == graph_size:
             best_clique = clique
