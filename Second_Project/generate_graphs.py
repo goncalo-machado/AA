@@ -55,7 +55,7 @@ def generate_graph(n_vertices,edge_percentage):
 if __name__ == '__main__':
 
     edge_percentage_list = [0.125, 0.25, 0.5, 0.75]
-    n_vertices_list = range(4,151)
+    n_vertices_list = range(4,34)
 
     for n_vertices in n_vertices_list:
         for edge_percentage in edge_percentage_list:
