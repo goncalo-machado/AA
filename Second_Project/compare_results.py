@@ -70,10 +70,10 @@ for i in range(len(exhaustive_results)):
 for key in correct_results.keys():
     algorithms_accuracy[key] = correct_results[key] / len(exhaustive_results)
 
-file = open("result_comparison.txt", "w")
+file = open("results/result_comparison.txt", "w")
 file.write(f"{'Algorithm':<30} {'Correct_Results':<15} {'Accuracy':<15}\n")
 
-file_csv = open("result_comparison.csv", "w")
+file_csv = open("results/result_comparison.csv", "w")
 file_csv.write("Algorithm;Correct_Results;Accuracy\n")
 
 for key in algorithms_accuracy.keys():
