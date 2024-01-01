@@ -1,0 +1,4 @@
+Language             Starting Length      Ending Length       
+english              698069               216616              
+spanish              1001728              367748              
+french               668432               330184              
