@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     possible_k = [3,5,10]
 
-    stats = open("results/times/frequent_counter/frequent_counter_time.txt", "w", encoding="utf-8")
+    stats = open("results/times/frequent_counter_time.txt", "w", encoding="utf-8")
     stats.write(f'{"Language":<20} {"Average Time":<20} {"k":<20}\n')
 
     books = project_utils.process_books()
@@ -38,6 +38,6 @@ if __name__ == '__main__':
             with open("results/counters/frequent_counter/odyssey_" + language + "_" + str(k) + ".txt", "w", encoding="utf-8") as file:
                 file.write(json.dumps(counter, ensure_ascii=False) + "\n")
 
-            stats.write(f'{language + ":":<20} {frequent_counter_time:<20} {k:<20}\n')
+            stats.write(f'{language:<20} {frequent_counter_time:<20} {k:<20}\n')
 
     stats.close()

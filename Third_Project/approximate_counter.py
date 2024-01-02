@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     n_trials = 20000
 
-    stats = open("results/times/approximate_counter/approximate_counter_time.txt", "w", encoding="utf-8")
+    stats = open("results/times/approximate_counter_time.txt", "w", encoding="utf-8")
     stats.write(f'{"Language":<20} {"Average Time":<20}\n')
 
     books = project_utils.process_books()
@@ -46,6 +46,6 @@ if __name__ == '__main__':
 
                 file.write(json.dumps(counter, ensure_ascii=False) + "\n")
 
-        stats.write(f'{language + ":":<20} {total_time/n_trials:<20}\n')
+        stats.write(f'{language:<20} {total_time/n_trials:<20}\n')
 
     stats.close()
