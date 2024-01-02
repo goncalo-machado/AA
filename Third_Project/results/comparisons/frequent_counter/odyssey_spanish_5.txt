@@ -1,0 +1,13 @@
+Top 4 letters (Exact Counter):
+A: 44356
+E: 42152
+O: 31916
+R: 28115
+
+Top 4 letters (Frequent Counter):
+T: 1
+O: 1
+R: 1
+
+Accurate letters: 2/4
+Accuracy: 50.00%

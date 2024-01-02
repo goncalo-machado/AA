@@ -1,0 +1,24 @@
+Top 9 letters (Exact Counter):
+A: 44356
+E: 42152
+O: 31916
+R: 28115
+S: 27850
+I: 23203
+N: 22978
+T: 17084
+L: 16605
+
+Top 9 letters (Frequent Counter):
+A: 9204
+E: 7005
+O: 3
+Z: 1
+M: 1
+É: 1
+N: 1
+T: 1
+R: 1
+
+Accurate letters: 6/9
+Accuracy: 66.67%

@@ -1,0 +1,9 @@
+Top 2 letters (Exact Counter):
+E: 28671
+S: 19490
+
+Top 2 letters (Frequent Counter):
+E: 1
+
+Accurate letters: 1/2
+Accuracy: 50.00%

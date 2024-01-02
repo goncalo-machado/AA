@@ -1,0 +1,10 @@
+Top 2 letters (Exact Counter):
+A: 44356
+E: 42152
+
+Top 2 letters (Frequent Counter):
+O: 1
+R: 1
+
+Accurate letters: 0/2
+Accuracy: 0.00%
