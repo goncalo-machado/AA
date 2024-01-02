@@ -8,14 +8,12 @@ def approximate_counter(text):
 
     counter = {}
 
+    prob = 1 / 4
+
     for letter in text:
 
         if letter not in counter:
             counter[letter] = 0
-
-        k = counter[letter]
-
-        prob = 1 / 4
 
         if  random.uniform(0,1) <= prob:
             counter[letter] += 1
