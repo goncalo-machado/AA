@@ -1,1 +1,4 @@
 Language             Average Time        
+english:             0.03644352322816849 
+spanish:             0.06214751232862473 
+french:              0.05643431528806686 
