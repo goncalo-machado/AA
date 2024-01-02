@@ -6,10 +6,8 @@ import json
 def frequent_counter(stream, k):
     counters = Counter()
     for item in stream:
-        ## case 1: item already has counter or there are empty counters
         if item in counters or len(counters) < k-1:
             counters[item] += 1
-        ## case 2: item doesn't have counter and there are no empty counters
         else:
             for key in list(counters.keys()):
                 counters[key] -= 1
