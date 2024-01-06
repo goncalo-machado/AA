@@ -1,0 +1,104 @@
+Expected value: 91937.0
+Variance: 45968.5
+Standard deviation: 214.4026585656064
+
+Mean absolute error: 208.94865
+Mean relative error: 0.22727373092444111%
+Mean accuracy ratio: 100.0020301402047%
+
+Smallest counter value: 90879
+Largest counter value: 92936
+
+Mean counter value: 91938.86645
+Mean absolute deviation: 208.93907735999977
+Standard deviation: 262.5453762959799
+Maximum deviation: 1059.8664500000014
+Variance: 68930.07461439769
+
+Real Char Frequency Order: AEORSINTLDCUMPBVÁGHÓJÍÉFZQYÑÚXÜΣὈΔΥΜΕΟΎΆΝΑΙ
+Letter Order Accuracy: 0%
+10 Most Common Orders:
+AEORSINTLDCUMPBVÁGHÓJÍÉFZQÑYÚXÜΣὈΔΥΆΜΕΝΟΎΑΙ: 16
+AEORSINTLDCUMPBVÁGHÓJÍÉFZQYÑÚXÜΣὈΔΥΆΜΕΝΟΎΑΙ: 12
+AEORSINTLDCUMPBVÁGHÓJÍÉFZQÑYÚXÜὈΔΥΣΆΜΕΝΟΎΑΙ: 8
+AEORSINTLDCUMPBVÁGHÓJÍÉFZQYÑÚXÜΔΣὈΥΆΜΕΝΟΎΑΙ: 7
+AEOSRNITLDCUMPBVÁGHÓJÍÉFZQYÑÚXÜΣὈΔΥΆΜΕΝΟΎΑΙ: 7
+AEORSNITLDCUMPBVÁGHÓJÍÉFZQYÑÚXÜὈΔΥΣΆΜΕΝΟΎΑΙ: 7
+AEORSINTLDCUMPBVÁGHÓJÍÉFZQÑYÚXÜΣΜὈΔΥΆΕΝΟΎΑΙ: 7
+AEORSINTLDCUMPBVÁGHÓJÍÉFZQYÑÚXÜὈΣΎΔΥΆΜΕΝΟΑΙ: 6
+AEORSINTLDCMUPBVÁGHÓJÍÉFZQÑYÚXÜΣὈΔΥΆΜΕΝΟΎΑΙ: 6
+AEORSINTLDCUMPBVÁGHÓJÍÉFZQYÑÚXÜΣΜΕὈΔΥΆΝΟΎΑΙ: 6
+
+Top 3 Char Order Accuracy: 100.0%
+10 Most Common Orders:
+AEO: 20000
+
+Mean Counter Values per letter:
+Letter : Counter Value : Expected Value
+A      : 11089.84495   : 11089.0
+E      : 10538.2989    : 10538.0
+O      : 7978.69495    : 7979.0
+R      : 7029.29465    : 7028.75
+S      : 6963.0052     : 6962.5
+I      : 5801.09175    : 5800.75
+N      : 5744.608      : 5744.5
+T      : 4270.843      : 4271.0
+L      : 4151.08195    : 4151.25
+D      : 3839.3076     : 3839.25
+C      : 3762.0075     : 3761.75
+U      : 2990.6796     : 2990.5
+M      : 2934.0921     : 2934.25
+P      : 2565.76755    : 2565.5
+B      : 1683.7684     : 1684.0
+V      : 1554.89095    : 1555.0
+Á      : 1457.00545    : 1457.25
+G      : 1180.63995    : 1180.5
+H      : 1133.7935     : 1133.75
+Ó      : 1030.67605    : 1030.75
+J      : 768.53055     : 768.5
+Í      : 699.01385     : 699.0
+É      : 660.1696      : 660.25
+F      : 644.69265     : 645.0
+Z      : 434.3234      : 434.25
+Q      : 315.29125     : 315.25
+Y      : 219.4584      : 219.5
+Ñ      : 217.67895     : 217.75
+Ú      : 164.5501      : 164.5
+X      : 95.54285      : 95.5
+Ü      : 13.511        : 13.5
+Σ      : 1.7342        : 1.75
+Δ      : 0.74545       : 0.75
+Ὀ      : 0.74285       : 0.75
+Ο      : 0.50205       : 0.5
+Ύ      : 0.50125       : 0.5
+Μ      : 0.49925       : 0.5
+Υ      : 0.49675       : 0.5
+Ε      : 0.4934        : 0.5
+Ά      : 0.2549        : 0.25
+Ν      : 0.24985       : 0.25
+Ι      : 0.2475        : 0.25
+Α      : 0.2444        : 0.25
+
+Most Frequent Letter: A
+Letter Accuracy: 100.0%
+10 Most Common Letters:
+A 
+
+--------- Letter A
+Expected value: 11089.0
+Variance: 5544.5
+Standard deviation: 74.46139939592862
+
+Mean absolute error: 72.92875
+Mean relative error: 0.657667508341596%
+Mean accuracy ratio: 100.00761971322933%
+
+Smallest counter value: 10703
+Largest counter value: 11423
+
+Mean counter value: 11089.84495
+Mean absolute deviation: 72.9274825749998
+Standard deviation: 91.34607823818999
+Maximum deviation: 386.8449500000006
+Variance: 8344.106009497526
+

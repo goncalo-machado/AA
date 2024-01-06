@@ -1,0 +1,87 @@
+Expected value: 54154.0
+Variance: 27077.0
+Standard deviation: 164.55090397806995
+
+Mean absolute error: 161.37945
+Mean relative error: 0.2980009786904006%
+Mean accuracy ratio: 100.00171797097168%
+
+Smallest counter value: 53244
+Largest counter value: 54921
+
+Mean counter value: 54154.93035
+Mean absolute deviation: 161.38131070000023
+Standard deviation: 202.20370990384353
+Maximum deviation: 910.9303500000024
+Variance: 40886.34029887771
+
+Real Char Frequency Order: ESARNOTILDHUGCMPYWFBVKJXQZ
+Letter Order Accuracy: 20.18%
+10 Most Common Orders:
+ESARNOTILDHUGCMPYWFBVKJXQZ: 4036
+ESARNOTIDLHUGCMPYWFBVKJXQZ: 2416
+ESARNOTILDHUGCMPYFWBVKJXQZ: 2091
+ESARNOTILDHUGCPMYWFBVKJXQZ: 1915
+ESARNOTIDLHUGCMPYFWBVKJXQZ: 1260
+ESARNOTIDLHUGCPMYWFBVKJXQZ: 1205
+ESARNOTILDHUGCPMYFWBVKJXQZ: 1110
+ESARNOTIDLHUGCPMYFWBVKJXQZ: 686
+ESARNOITLDHUGCMPYWFBVKJXQZ: 440
+ESARNOTILDHUGCMPYWFBVKXJQZ: 371
+
+Top 3 Char Order Accuracy: 100.0%
+10 Most Common Orders:
+ESA: 20000
+
+Mean Counter Values per letter:
+Letter : Counter Value : Expected Value
+E      : 7166.69625    : 7167.75
+S      : 4872.43115    : 4872.5
+A      : 4168.70345    : 4168.25
+R      : 3858.47975    : 3858.0
+N      : 3602.4656     : 3602.75
+O      : 3453.379      : 3452.75
+T      : 3326.2393     : 3326.0
+I      : 3235.84715    : 3235.5
+L      : 2721.6168     : 2721.0
+D      : 2702.5024     : 2702.75
+H      : 2071.50895    : 2071.5
+U      : 1919.64435    : 1919.75
+G      : 1682.93635    : 1683.0
+C      : 1543.81605    : 1544.0
+M      : 1423.18925    : 1423.0
+P      : 1403.3181     : 1403.5
+Y      : 1043.93525    : 1044.25
+W      : 896.0112      : 895.75
+F      : 882.12295     : 882.0
+B      : 802.84325     : 803.0
+V      : 610.56895     : 610.75
+K      : 522.15055     : 521.75
+J      : 89.5301       : 89.5
+X      : 75.2453       : 75.25
+Q      : 52.7344       : 52.75
+Z      : 27.0145       : 27.0
+
+Most Frequent Letter: E
+Letter Accuracy: 100.0%
+10 Most Common Letters:
+E 
+
+--------- Letter E
+Expected value: 7167.75
+Variance: 3583.875
+Standard deviation: 59.86547419005382
+
+Mean absolute error: 58.276225
+Mean relative error: 0.8130337274598115%
+Mean accuracy ratio: 99.98529873391232%
+
+Smallest counter value: 6894
+Largest counter value: 7470
+
+Mean counter value: 7166.69625
+Mean absolute deviation: 58.27169162499992
+Standard deviation: 73.11573897552825
+Maximum deviation: 303.30375000000004
+Variance: 5345.91128593758
+

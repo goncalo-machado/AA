@@ -1,0 +1,99 @@
+Expected value: 82546.0
+Variance: 41273.0
+Standard deviation: 203.15757431117353
+
+Mean absolute error: 197.9248
+Mean relative error: 0.23977515567077662%
+Mean accuracy ratio: 100.00142647735808%
+
+Smallest counter value: 81476
+Largest counter value: 83517
+
+Mean counter value: 82547.1775
+Mean absolute deviation: 197.91635449999842
+Standard deviation: 247.7787363632118
+Maximum deviation: 1071.1775000000052
+Variance: 61394.30219375002
+
+Real Char Frequency Order: ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊÂZÎÛÇÀËÙÏ
+Letter Order Accuracy: 0.42%
+10 Most Common Orders:
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊÂZÎÛÇÀÙËÏ: 99
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊÂZÎÛÀÇÙËÏ: 88
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊÂZÎÛÇÀËÙÏ: 84
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊZÂÎÛÀÇÙËÏ: 82
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊÂZÎÛÀÇËÙÏ: 82
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊZÂÎÛÇÀÙËÏ: 80
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊZÂÎÛÇÀËÙÏ: 76
+ESRAINTOULMPDÉCVHBFGÈYXKQJÔÊZÂÎÛÇÀÙËÏ: 63
+ESRAINTOULMPDÉCVHFBGÈYXKQJÔÊZÂÎÛÀÇËÙÏ: 62
+ESRAINTOULMPDÉCVHBFGÈYXKQJÔÊZÂÎÛÀÇÙËÏ: 62
+
+Top 3 Char Order Accuracy: 96.05%
+10 Most Common Orders:
+ESR: 19210
+ERS: 790
+
+Mean Counter Values per letter:
+Letter : Counter Value : Expected Value
+E      : 10427.58865   : 10427.75
+S      : 7127.65635    : 7127.75
+R      : 6949.61285    : 6948.5
+A      : 6402.2499     : 6401.75
+I      : 6277.92505    : 6277.5
+N      : 5720.50145    : 5720.25
+T      : 5667.82175    : 5668.25
+O      : 4507.5655     : 4507.75
+U      : 4229.17745    : 4229.25
+L      : 3627.3133     : 3627.5
+M      : 2903.24135    : 2902.75
+P      : 2855.41595    : 2855.25
+D      : 2606.96295    : 2606.5
+É      : 2083.2306     : 2083.5
+C      : 1889.01685    : 1889.25
+V      : 1476.448      : 1476.5
+H      : 1309.5846     : 1309.5
+F      : 985.00765     : 985.25
+B      : 968.7874      : 968.75
+G      : 952.3083      : 952.25
+È      : 796.15655     : 796.25
+Y      : 452.7847      : 452.75
+X      : 441.9414      : 442.0
+K      : 360.6306      : 360.75
+Q      : 329.52015     : 329.75
+J      : 311.25945     : 311.25
+Ô      : 231.56755     : 231.75
+Ê      : 153.39845     : 153.25
+Â      : 134.94745     : 135.0
+Z      : 133.7942      : 133.75
+Î      : 73.48015      : 73.5
+Û      : 54.00225      : 54.0
+Ç      : 45.529        : 45.5
+À      : 44.7206       : 44.75
+Ë      : 6.27305       : 6.25
+Ù      : 5.98685       : 6.0
+Ï      : 3.7692        : 3.75
+
+Most Frequent Letter: E
+Letter Accuracy: 100.0%
+10 Most Common Letters:
+E 
+
+--------- Letter E
+Expected value: 10427.75
+Variance: 5213.875
+Standard deviation: 72.207167234285
+
+Mean absolute error: 70.12445
+Mean relative error: 0.6724792021289306%
+Mean accuracy ratio: 99.99845268634174%
+
+Smallest counter value: 10101
+Largest counter value: 10826
+
+Mean counter value: 10427.58865
+Mean absolute deviation: 70.12432091999963
+Standard deviation: 88.04118150716432
+Maximum deviation: 398.4113500000003
+Variance: 7751.249641177455
+
