@@ -244,15 +244,12 @@ def compare_frequent_counter(language, exact_counter):
 
 if __name__ == "__main__":
 
-    # All books
     languages = ["english","spanish","french"]
 
     for language in languages:
 
         exact_counters = obtain_exact_counters(language)
 
-        # Compare approximate counters
         compare_approximate_counters(language, exact_counters)
 
-        # Compare data stream counters
         compare_frequent_counter(language, exact_counters)
